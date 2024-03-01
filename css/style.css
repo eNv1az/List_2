@@ -1,6 +1,13 @@
 ol{
-    list-style-type: "\2666";
+    list-style-type: none;
+    padding-left: 0px;
+}
+ol li::before{
+    content: "\2666";
     color: rgb(170, 0, 113);
-    margin: none;
-
+    display: inline-block;
+    width: 20px;
+}
+p{
+    height: 20px;
 }
