@@ -11,3 +11,6 @@ ol li::before{
 p{
     height: 20px;
 }
+span{
+    margin-left: 20px;
+}
